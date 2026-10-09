@@ -1,0 +1,14 @@
+let x;
+
+x = 5 + '5';
+
+console.log(x, typeof x); // 55 string
+
+x = 5 + Number('5');
+
+console.log(x, typeof x); // 10 'number'
+
+x = 5 * '5';
+
+console.log(x, typeof x); // 25 'number'
+
