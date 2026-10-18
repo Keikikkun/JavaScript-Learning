@@ -1,21 +1,24 @@
-let x = Math.floor(Math.random() * 100 + 1);
-let y = Math.floor(Math.random() * 50 + 1);
+let x;
 
-let sumOutput = x + y;
-console.log(`${x} + ${y} = ${sumOutput}`);
+x = Math.sqrt(4) // Gets the square root of a number;
 
-let difference = x - y;
+x = Math.abs(-5)
 
-console.log(`${x} - ${y} = ${difference}`);
+x = Math.round(4.2); 
 
-let product = x *y;
+x = Math.ceil(4.2); // Round up
 
-console.log(`${x} * ${y} = ${product}`);
+x = Math.floor(4.9); // Round down
 
-let quotient = x / y;
+x = Math.pow(2, 4);
 
-console.log(`${x} / ${y} = ${quotient}`);
+x = Math.min(3, 5, 6);
 
-let modulo = x % y;
+x= Math.max(3, 5, 6);
 
-console.log(`${x} % ${y} = ${modulo}`);  
+x = Math.random(); // generates random number
+x = Math.random() * 10; // Generates a decimal from 1 - 9
+x = Math.random() * 10 + 1; // Generates a Decimal from 1 - 10
+x = Math.floor(Math.random() * 10 + 1); // Generates a whole number from 1 to 10
+
+console.log(x);

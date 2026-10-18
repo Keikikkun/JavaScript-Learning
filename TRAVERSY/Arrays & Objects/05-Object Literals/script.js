@@ -1,3 +1,7 @@
+// Object Literals is a list of zero or
+// more pairs of property names and associated 
+// values enclosed in curly braces 
+
 let x;
 const person = 
 {

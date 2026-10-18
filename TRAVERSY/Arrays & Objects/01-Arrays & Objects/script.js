@@ -14,7 +14,7 @@ let x;
 
  x = `my favourite fruit is an ${fruits[1]}`;
 
- x = number.length; // 5
+ x = number.length; // 5, .length gets the total number of elements inside an array
  
  fruits[2] = 'pear'; // Changes the orange to pear
 
