@@ -1,3 +1,4 @@
+// for of is a loop that operates in a sequence of values sourced from an iterable object
 // Syntax: for (variable assigned of variable) {Condition}
 
 // Loop Through arrays
