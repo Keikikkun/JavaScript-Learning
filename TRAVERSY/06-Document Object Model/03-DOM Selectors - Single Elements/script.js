@@ -1,0 +1,1 @@
+// document.getElementById(): Gets element by id
